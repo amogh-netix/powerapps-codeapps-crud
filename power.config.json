@@ -1,0 +1,30 @@
+{
+  "appId": "",
+  "appDisplayName": "Hello World",
+  "description": null,
+  "environmentId": "569a6112-b414-e1b4-aaaa-95b7a84d7947",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "logoPath": "Default",
+  "localAppUrl": "http://localhost:3000/",
+  "region": "prod",
+  "connectionReferences": {
+    "3341ca03-a61b-4294-8607-46fa216774a9": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+      "displayName": "SharePoint",
+      "dataSources": [
+        "sharepointcrudform"
+      ],
+      "dataSets": {
+        "https://netixcontrolsae-my.sharepoint.com/personal/coe_intern4_netix_ai": {
+          "dataSources": {
+            "sharepointcrudform": {
+              "tableName": "Sharepoint Crud form"
+            }
+          }
+        }
+      }
+    }
+  },
+  "databaseReferences": {}
+}
